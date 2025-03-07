@@ -1,0 +1,10 @@
+<webscript>
+  <shortname>Alfresco Containers</shortname>
+  <description>Admin Console WebScript for Docker Monitor</description>
+  <url>/admin/admin-dockermonitor</url>
+  <family>AdminConsole</family>
+  <format default="html">argument</format>
+  <authentication>admin</authentication>
+  <lifecycle>internal</lifecycle>
+  <transaction allow="readonly">required</transaction>
+</webscript>
